@@ -17,7 +17,7 @@ funfacts = [
 
 @bp.route("/")
 def index():
-    """  """
+    """ shows react app """
     return flask.render_template("index.html")
 
 @bp.route("/facts")
